@@ -1,0 +1,41 @@
+.container {
+    width: 52vw;
+    height: 55.20vh;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+  }
+  
+  .section1 {
+    height: 100%;
+    width: 50%;
+    border-radius: 15px;
+    background-color: #03015d;
+  }
+  
+  .section_title {
+    padding: 10vh 3.5vw;
+  }
+  
+  .title {
+    font-family: "Rubik", sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  
+  .sub_title {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 2.5px;
+  }
+  
+  .section2 {
+    height: 535px;
+    width: 481px;
+    border-radius: 15px;
+    background-color: #fff;
+  }
