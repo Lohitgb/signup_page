@@ -24,6 +24,7 @@ body {
   text-align: left;
 }
 
+
 .container {
   width: 52vw;
   height: 55vh;
@@ -138,19 +139,57 @@ body {
 /* Media Query for Mobile Devices (320px width) */
 @media screen and (max-width: 1024px) {
   .section2 input {
-    width: 187.5px;
+    width: 200px;
+    padding: 13px 12px;
   }
 
   .section2 form button {
-    height: 45px;
+    height: 48px;
   }
 
   .container .section2 .forgot {
     font-size: 14px;
+    margin-bottom: 3px;
   }
 
   .section2 .login_section {
-    bottom: 1vh;
+    margin-top: 18px;
   }
   
+
 }
+
+@media screen and (max-width: 768px) {
+.container {
+  width: 75vw;
+  height: 55vh;
+}
+
+.section2 input {
+  width: 70%
+}
+
+.section2 form button {
+    height: 45px;
+    width: 245px;
+  }
+
+  .container .section2 .forgot {
+    font-size: 11px;
+    margin-bottom: 3px;
+  }
+
+  .container .section2 .forgot a {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+ .container{
+  width: 100%!important;
+  height: 100%!important;
+  flex-direction: column;
+  border-radius: 0;
+}
+ };
+ 
