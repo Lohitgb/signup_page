@@ -1,7 +1,7 @@
 import About from './About';
 import Home from './Home';
 import Login from './Login';
-import Signup from './Signup';
+// import Signup from './Signup';
 
 const pages = [
   {
@@ -21,11 +21,11 @@ const pages = [
   title:'login'
   },
 
-  {
-    path:'signup',
-    element:<Signup/>,
-    title:'signup'
-    },
+  // {
+  //   path:'signup',
+  //   element:<Signup/>,
+  //   title:'signup'
+  //   },
 ];
 
 export default pages;
