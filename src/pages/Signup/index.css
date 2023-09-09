@@ -1,0 +1,72 @@
+
+  
+.signup {
+  width: 100%;
+  height: 100%;
+  background-color: #c4c4c4;  
+}
+
+.signup_container{
+    display: flex;
+    width: 55vw;
+    height: 70vh;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.signup_section1 {
+    height: 100%;
+    width: 50%;
+    border-radius: 15px;
+    background-color: #fff;
+  }
+
+  .signup_section1 form{
+    padding: 30.04px 34.3px;
+  }
+
+  .signup_section1 form .input-box{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #000;
+    height: 300.5px;
+  }
+
+  .signup_section2 {
+    height: 100%;
+    width: 50%;
+    border-radius: 15px;
+    background-color: #03015d;
+  }
+
+  .signup_section2 .signup_tittle{
+    padding: 58.6px 64.75px;
+    /* padding: 10vh 3.5vw; */
+
+  }
+
+  .signup_section2 .signup_tittle h2{
+    font-family: "Rubik",sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+
+  .signup_section2 .signup_tittle p{
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 12px;
+    margin: 2.5px 0px 0px;
+    margin-bottom: 40px;
+    margin-top: -30px;;
+  }
+
+  .signup_section2 .signup_tittle a{
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+  }
