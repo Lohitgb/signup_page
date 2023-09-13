@@ -2,6 +2,7 @@ import About from './About';
 import Home from './Home';
 import Login from './Login';
 import Signup from './Signup';
+import ForgotPassword from './ForgotPassword';
 
 const pages = [
   {
@@ -23,6 +24,11 @@ const pages = [
     path:'signup',
     element:<Signup/>,
     title:'signup',
+  },
+  {
+    path:'forgot-password',
+    element:<ForgotPassword/>,
+    title:'forgot-password'
   },
 
 ];

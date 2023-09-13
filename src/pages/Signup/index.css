@@ -188,7 +188,7 @@
 }
 
 @media screen and (max-width: 375px) {
-  .signup{
+  .signup {
     width: 407px;
     height: 109vh;
   }
@@ -196,6 +196,13 @@
   .signup_container {
     width: 415px;
     height: 795px;
+  }
+
+  .signup_section1 form {
+    width: 315px;
+    padding: 10px 30px;
+    height: 216px;
+    margin-top: 0px;
   }
 
   .signup_section2 {
@@ -206,5 +213,48 @@
 
   .signup_section1 form .signup_section button {
     width: 274px;
+  }
+}
+
+/* Media query for 320px viewport width */
+@media screen and (max-width: 320px) {
+  .signup {
+    width: 412px;
+    height: 128.5vh;
+  }
+
+  .signup_container {
+    width: 100%;
+    height: 129vh;
+  }
+
+  .signup_section1 {
+    width: 100%;
+    height: 110vh;
+
+  }
+
+  .signup_section1 form input {
+    width: 100%;
+  }
+
+  .signup_section1 form .signup_section {
+    height: 49px;
+    ;
+    top: 402px;
+    width: 313px;
+  } ;
+
+  .signup_section1 form .signup_section button {
+    width: 100%;
+    width: 312px;
+    margin-left: 9px;
+    padding: 12px 0px;
+    font-size: 18px;
+
+  }
+
+  .signup_section2 {
+    width: 100%;
   }
 }
