@@ -1,6 +1,7 @@
 import "@/pages/Login/index.css";
 function Login() {
   return (
+    <div className="login-page">
     <div className="container">
       <div className="section1">
         <div className="title">
@@ -19,11 +20,12 @@ function Login() {
           <div className="login_section">
             <button type="submit">Login</button>
             <p className="forgot">
-              Forgot your password ?<a href="#"> Forgot Password</a>
+              Forgot your password ?<a href="#">Forgot Password</a>
             </p>
           </div>
         </form>
       </div>
+    </div>
     </div>
   );
 }
