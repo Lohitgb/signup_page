@@ -1,0 +1,107 @@
+.forgot-password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c4c4c4;
+}
+
+.forgot-container {
+    display: flex;
+    width: 52vw;
+    height: 50vh;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.forgot-section1 {
+    height: 100%;
+    width: 50%;
+    background-color: #03015d;
+    border-radius: 15px;
+}
+
+.forgot-tittle {
+    padding: 59px 65px;
+}
+
+.forgot-section1 .forgot-tittle h2 {
+    font-family: "Rubik",sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.forgot-section1 .forgot-tittle p {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-top: -38px;
+}
+
+
+.forgot-section2 {
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.forgot-section2 form {
+    height:75px;
+    padding:39px 33px;
+}
+
+.forgot-password form input {
+    font-family: "Poppins",sans-serif;
+    width: 20.27vw;
+    padding: 1.8vh 15px;
+    border: 1px solid #c4c4c4;
+    border-radius: 7px;
+    margin-top: 15px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.forgot-section2 .forgot-password_section {
+    position: absolute;
+    bottom: 25.3vh;
+}
+
+.forgot-section2 .forgot-password_section button {
+    font-weight: 500;
+    background: #03015d;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Poppins",sans-serif;
+    width: 22vw;
+    padding: 1.8vh 15px;
+    border: 1px solid #c4c4c4;
+    border-radius: 7px;
+    margin-top: 15px;
+    outline: none;
+    font-size: 15px;
+}
+
+.forgot-section2 .forgot-password_section p {
+    color: #8b8b8b;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    height: 41px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.forgot-section2 .forgot-password_section  a {
+    color: #03015d;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 4px;
+    text-decoration: none;
+}
