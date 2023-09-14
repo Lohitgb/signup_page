@@ -1,6 +1,7 @@
 import "@/pages/Login/index.css";
 function Login() {
   return (
+  <div className="login-page">
     <div className="container">
       <div className="section1">
         <div className="title">
@@ -24,6 +25,7 @@ function Login() {
           </div>
         </form>
       </div>
+    </div>
     </div>
   );
 }

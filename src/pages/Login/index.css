@@ -1,10 +1,12 @@
 
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  text-align: left;
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  height: 100vh;
+  width: 100vw;
 }
-
 
 .container {
   width: 52vw;
