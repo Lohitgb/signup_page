@@ -22,15 +22,15 @@
 }
 
 .forgot-tittle {
-    padding: 59px 65px;
+    padding: 65px 65px;
 }
 
 .forgot-section1 .forgot-tittle h2 {
-    font-family: "Rubik",sans-serif;
+    font-family: "Rubik", sans-serif;
     color: #fff;
     font-weight: 500;
     font-size: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 27px;
 }
 
 .forgot-section1 .forgot-tittle p {
@@ -51,12 +51,12 @@
 }
 
 .forgot-section2 form {
-    height:75px;
-    padding:39px 33px;
+    height: 75px;
+    padding: 39px 33px;
 }
 
 .forgot-password form input {
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
     width: 20.27vw;
     padding: 1.8vh 15px;
     border: 1px solid #c4c4c4;
@@ -77,7 +77,7 @@
     background: #03015d;
     color: #fff;
     cursor: pointer;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
     width: 22vw;
     padding: 1.8vh 15px;
     border: 1px solid #c4c4c4;
@@ -97,11 +97,217 @@
     margin-top: 20px;
 }
 
-.forgot-section2 .forgot-password_section  a {
+.forgot-section2 .forgot-password_section a {
     color: #03015d;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 13px;
     margin-left: 4px;
     text-decoration: none;
 }
+
+@media screen and (max-width :1440px) {
+    .forgot-tittle {
+        padding: 35px 50px;
+    }
+
+    .forgot-section1 .forgot-tittle h2 {
+        padding-bottom: 28px;
+    }
+
+    .forgot-section2 form {
+        padding: 4vh 1.8vw;
+    }
+
+    .forgot-password form input {
+        width: 19.8vw;
+    }
+
+    .forgot-section2 .forgot-password_section p {
+        margin-bottom: 45px;
+        margin-top: 14px;
+        height: 0px;
+    }
+}
+
+@media screen and (max-width :1024px) {
+    .forgot-tittle {
+        padding: 10vh 3.5vw;
+        margin-top: -33px;
+    }
+
+    .forgot-password form input {
+        width: 18.9vw;
+    }
+}
+
+@media screen and (max-width :800px) {
+    .forgot-container {
+        width: 75vw;
+        height: 55vh;
+    }
+
+    .forgot-section1 .forgot-tittle h2 {
+        padding-bottom: 27px;
+    }
+
+    .forgot-password form input {
+        width: 22.9vw;
+    }
+
+    .forgot-section2 .forgot-password_section {
+        bottom: 22.3vh;
+    }
+
+    .forgot-section2 .forgot-password_section button {
+        width: 32vw;
+    }
+
+    .forgot-section2 .forgot-password_section p {
+        font-size: 10px;
+    }
+
+    .forgot-section2 .forgot-password_section a {
+        font-size: 10px;
+        margin-left: 3px;
+    }
+}
+
+    @media screen and (max-width :600px) {
+        .forgot-container {
+            width: 100%;
+            height: 100%;
+            flex-direction: column;
+            border-radius: 0%;
+        }
+
+        .forgot-section1 {
+            width: 100%;
+            border-radius: 0%;
+        }
+
+        .forgot-tittle {
+            /* height: 100%; */
+            padding: 80px 40px;
+            margin-top: -33px;
+            /* width: 100%; */
+        }
+
+        .forgot-section1 .forgot-tittle p {
+            margin-top: -37px;
+        }
+
+        .forgot-section2 {
+            width: 100%;
+            border-radius: 0%;
+        }
+
+        .forgot-section2 form {
+            height: 75px;
+            padding: 20px 30px;
+        }
+
+        .forgot-section2 form .forgot-input {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            width: 90%;
+        }
+
+        .forgot-password form input {
+            width: 54.27vw;
+        }
+
+        .forgot-section2 .forgot-password_section {
+            position: absolute;
+            bottom: 4vh;
+            width: 90%;
+        }
+
+        .forgot-section2 .forgot-password_section button {
+            width: 75%;
+        }
+
+        .forgot-section2 .forgot-password_section p {
+            font-size: 10px;
+            margin-bottom: 15px;
+            margin-top: 14px;
+        }
+
+        .forgot-section2 .forgot-password_section a {
+            font-size: 10px;
+            margin-left: 3px;
+        }
+    }
+
+    @media screen and (max-width :375px) {
+        .forgot-section1 .forgot-tittle h2 {
+            padding-bottom: 28px;
+        }
+
+        .forgot-section1 .forgot-tittle p {
+            margin-top: -38px;
+        }
+
+        .forgot-password form input {
+            width: 52vw;
+        }
+
+    }
+
+    @media screen and (max-width :325px) {
+        .forgot-section1 .forgot-tittle {
+            margin-top: -33px;
+        }
+
+        .forgot-password form input {
+            width: 48.5vw;
+        }
+    }
+
+    /* @media screen and (max-width :1440px) {
+    .forgot-tittle {
+        padding: 35px 50px;
+    }
+
+    .forgot-section1 .forgot-tittle h2 {
+        padding-bottom: 28px;
+    }
+
+    .forgot-section2 form {
+        padding: 4vh 1.8vw;
+    }
+
+    .forgot-password form input {
+        width: 19.8vw;
+    }
+
+    .forgot-section2 .forgot-password_section p {
+        margin-bottom: 45px;
+        margin-top: 14px;
+        height: 0px;
+    }
+} */
+
+    /* @media screen and (max-width :1024px) {
+    .forgot-tittle {
+        padding: 10vh 3.5vw;
+        margin-top: -33px;
+    }
+
+    .forgot-password form input {
+        width: 18.9vw;
+    }
+} */
+
+    /* @media screen and (max-width :800px) {
+    .forgot-container {
+        width: 75vw;
+        height: 55vh;
+    }
+
+    .forgot-section1 .forgot-tittle h2 {
+        padding-bottom: 27px;
+    }
+} */
