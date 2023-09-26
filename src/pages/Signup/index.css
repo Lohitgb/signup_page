@@ -106,6 +106,31 @@
   font-size: 13px;
 }
 
+@media screen and (max-width: 1440px) {
+  .signup_section1 form input {
+    width: 284px;
+  }
+
+  .signup_section1 form .signup_section {
+    position: absolute;
+    bottom: 138px;
+}
+
+.signup_section2 .signup_tittle {
+  padding: 7vh 3.5vw;
+}
+}
+
+@media screen and (max-width: 1024px) {
+  .signup_section1 form input {
+    width: 192px;
+    margin-left: -13px;
+}
+
+.signup_section1 form .signup_section {
+  margin-left: -13px;
+}
+}
 
 
 @media screen and (max-width: 768px) {
@@ -119,12 +144,12 @@
   }
 
   .signup_section1 form .signup_section {
-    bottom: 111px;
+    bottom: 140px;
     margin-left: -19.5px;
   }
 
   .signup_section2 .signup_tittle {
-    padding: 16px 27px;
+    padding: 37px 27px;
   }
 
 }
@@ -134,7 +159,7 @@
     display: flex;
     flex-direction: column;
     width: 425px;
-    height: 729px;
+    height: 100%;
     background-color: #fff;
     border-radius: 0%;
   }
@@ -150,7 +175,7 @@
   }
 
   .signup_section1 form input {
-    width: 297px;
+    width: 300px;
     padding: 7px 15px;
     margin-left: 0px;
   }
@@ -160,9 +185,8 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    height: 52px;
-    top: 303px;
-    width: 382px;
+    top: 60px;
+    width: 386px;
     margin-left: 0px;
   }
 
@@ -177,7 +201,7 @@
   }
 
   .signup_section2 .signup_tittle {
-    padding: 42.6px 39.75px;
+    padding: 64  .6px 39.75px;
   }
 
   .signup_section2 .signup_tittle p {
@@ -195,7 +219,7 @@
 
   .signup_container {
     width: 415px;
-    height: 795px;
+    height: 100%;
   }
 
   .signup_section1 form {
